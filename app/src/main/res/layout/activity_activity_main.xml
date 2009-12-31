@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.HomeActivity">
+
+
+    <include
+        android:id="@+id/information_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/activity_main_title"/>
+    <com.dazhi.newsdemo2.ui.activity.ReFlashListView
+        android:layout_below="@id/information_title"
+        android:dividerHeight="2dp"
+        android:divider="@color/listview_divider"
+        android:id="@+id/lv_news_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.dazhi.newsdemo2.ui.activity.ReFlashListView>
+    <WebView
+        android:visibility="gone"
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

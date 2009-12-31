@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="view_pager_jump">#FF50ff</color>
+    <color name="linearlayout_border">#ffd2d2d2</color>
+    <color name="listview_divider">#f30df1</color>
+
+    <!--菜单选中时的背景颜色-->
+    <color name="menu_item_background">#33c85555</color>
+
+</resources>
